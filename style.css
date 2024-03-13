@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*add outras propriedades que desejar resetar*/
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+    /*background:local;*/
+    background-image: url("https://th.bing.com/th/id/OIG1.pQ.x.XxCrBt6e.UeYAW4?pid=ImgGn");
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    width: 100%;
+    height: 8vh;
+}
+
+.logo img{
+    width: 110%;
+    height: 8vh;
+    background: #fff;
+}
+
+.navbar {
+    background-color: #000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 8vh;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.lista_card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: auto 75px;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.cards{
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #393939;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.cards-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 275px;
+    height: 275px;
+}
+
+.cards-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+}
+
+.nome{
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+}
+
+.descricao{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 300px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.cards-info-valores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.produto-descricao{
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.produto-sem-desconto{
+    text-decoration: line-through;
+    color: red;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.produto-com-desconto{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer{
+    float: center;
+    display: block;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    margin: 5px 0 0 0;
+    padding: 10px;
+    /*position: absolute;*/
+    bottom: -5%;
+    width: 100%;
+}
+
+/* estilização do arquivo detalhes.html */
+.btn-voltar{
+    border: none;
+    border-radius: 8px;
+    background: #173cd0;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+    transition: 0.5 ease;
+}
+
+.btn-voltar:hover{
+    background: #5674e8;
+    transition: 0.5 ease;
+}
+
+.cards-detalhes{
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    background:#ffffff;
+}
+
+h1{
+    text-align: center;
+}
+
+.grupoValores{
+    width: fit-content;
+    column-gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mini-img{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.detalhes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
